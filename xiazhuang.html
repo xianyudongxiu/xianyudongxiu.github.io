@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>xiazhuang</title>
+</head>
+<body>
+<!--//人物相片-->
+<div class="gallery-container" style="
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px; /* 照片之间的间距 */
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+">
+    <!-- 照片1 -->
+    <div class="photo-container" style="
+    position: relative;
+    width: 250px; /* 减小单个容器宽度 */
+    text-align: center;
+  ">
+        <div class="photo-ellipse" style="
+      position: relative;
+      width: 200px; /* 减小照片尺寸 */
+      height: 280px;
+      margin: 0 auto;
+      overflow: hidden;
+      border-radius: 50% / 30%;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    ">
+            <img src="https://picsum.photos/id/64/200/280" alt="人物照片" style="
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      ">
+        </div>
+        <div class="photo-caption" style="
+      position: relative;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      border-radius: 50px;
+      display: inline-block;
+    ">
+            <h3 style="font-size: 18px; margin: 0 0 3px 0;">张三</h3>
+            <p style="font-size: 13px; margin: 0; color: #ddd;">CEO</p>
+        </div>
+    </div>
+
+    <!-- 照片2 -->
+    <div class="photo-container" style="
+    position: relative;
+    width: 250px;
+    text-align: center;
+  ">
+        <div class="photo-ellipse" style="
+      position: relative;
+      width: 200px;
+      height: 280px;
+      margin: 0 auto;
+      overflow: hidden;
+      border-radius: 50% / 30%;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    ">
+            <img src="https://picsum.photos/id/65/200/280" alt="人物照片" style="
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      ">
+        </div>
+        <div class="photo-caption" style="
+      position: relative;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      border-radius: 50px;
+      display: inline-block;
+    ">
+            <h3 style="font-size: 18px; margin: 0 0 3px 0;">李四</h3>
+            <p style="font-size: 13px; margin: 0; color: #ddd;">设计师</p>
+        </div>
+    </div>
+
+    <!-- 照片3 -->
+    <div class="photo-container" style="
+    position: relative;
+    width: 250px;
+    text-align: center;
+  ">
+        <div class="photo-ellipse" style="
+      position: relative;
+      width: 200px;
+      height: 280px;
+      margin: 0 auto;
+      overflow: hidden;
+      border-radius: 50% / 30%;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    ">
+            <img src="https://picsum.photos/id/91/200/280" alt="人物照片" style="
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      ">
+        </div>
+        <div class="photo-caption" style="
+      position: relative;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      border-radius: 50px;
+      display: inline-block;
+    ">
+            <h3 style="font-size: 18px; margin: 0 0 3px 0;">王五</h3>
+            <p style="font-size: 13px; margin: 0; color: #ddd;">开发工程师</p>
+        </div>
+    </div>
+
+    <!-- 照片3 -->
+    <div class="photo-container" style="
+    position: relative;
+    width: 250px;
+    text-align: center;
+  ">
+        <div class="photo-ellipse" style="
+      position: relative;
+      width: 200px;
+      height: 280px;
+      margin: 0 auto;
+      overflow: hidden;
+      border-radius: 50% / 30%;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    ">
+            <img src="https://picsum.photos/id/91/200/280" alt="人物照片" style="
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      ">
+        </div>
+        <div class="photo-caption" style="
+      position: relative;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      border-radius: 50px;
+      display: inline-block;
+    ">
+            <h3 style="font-size: 18px; margin: 0 0 3px 0;">王五</h3>
+            <p style="font-size: 13px; margin: 0; color: #ddd;">开发工程师</p>
+        </div>
+    </div>
+
+    <!-- 可以继续添加更多照片... -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--//视频汇总-->
+<div class="video-grid">
+    <!--    视频1-->
+    <div class="video-item">
+        <h3>产品演示</h3>
+        <video controls width="100%">
+            <source src="https://xiazhuang.oss-cn-beijing.aliyuncs.com/1de820660e84fdbe57e9dce429f696d5.mp4"
+                    type="video/mp4">
+        </video>
+        <p>上传时间：2024-02-20</p>
+        <p>演出人员：xx/xx</p>
+    </div>
+    <!--    视频2-->
+    <div class="video-item">
+        <h3>产品演示</h3>
+        <video controls width="100%">
+            <source src="https://xiazhuang.oss-cn-beijing.aliyuncs.com/guangchangwu/039670c50e120137cb6d30483e0d76f5.mp4"
+                    type="video/mp4">
+        </video>
+        <p>上传时间：2024-02-20</p>
+        <p>演出人员：xx/xx</p>
+    </div>
+    <!--    视频3-->
+    <div class="video-item">
+        <h3>产品演示</h3>
+        <video controls width="100%">
+            <source src="https://xiazhuang.oss-cn-beijing.aliyuncs.com/guangchangwu/1055a157807d36d7cead6a5ad452518c.mp4"
+                    type="video/mp4">
+        </video>
+        <p>上传时间：2024-02-20</p>
+        <p>演出人员：xx/xx</p>
+    </div>
+    <!--    视频4-->
+    <div class="video-item">
+        <h3>产品演示</h3>
+        <video controls width="100%">
+            <source src="https://xiazhuang.oss-cn-beijing.aliyuncs.com/guangchangwu/14d0faacf1553f7a7cdda5a581138697.mp4"
+                    type="video/mp4">
+        </video>
+        <p>上传时间：2024-02-20</p>
+        <p>演出人员：xx/xx</p>
+    </div>
+</div>
+
+<style>
+    .video-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .video-item {
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+    }
+</style>
+
+</body>
+</html>
